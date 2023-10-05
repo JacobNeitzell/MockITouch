@@ -1,11 +1,24 @@
 <template>
   <div class="container-fluid position relative">
-    <div class="row">
+    <div class="row justify-content-center p-2 m-2">
       <div
         class="col-lg-12 col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark">
         <h1 class="d-flex justify-content-center">ACCOUNT</h1>
-        Testing commit
-        Test 2
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Password</label>
+          </div>
+          <div class="col-auto">
+            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text text-light">
+              Must be 8-20 characters long.
+            </span>
+          </div>
+        </div>
       </div>
     </div>
 
