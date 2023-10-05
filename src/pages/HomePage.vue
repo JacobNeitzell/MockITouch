@@ -1,8 +1,10 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid position relative">
     <div class="row">
-      <div class="col-lg-12 col-md-6 card">
-        <h1 class="border-0 rounded position-relative p-1 ">ACCOUNT</h1>
+      <div
+        class="col-lg-12 col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark">
+        <h1 class="d-flex justify-content-center">ACCOUNT</h1>
+
       </div>
     </div>
 
