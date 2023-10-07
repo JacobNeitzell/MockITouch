@@ -18,7 +18,14 @@
               Must be 8-20 characters long.
             </span>
           </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Remember Me" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Remember Me
+            </label>
+          </div>
         </div>
+        <input class="btn btn-dark" type="submit" value="Submit">
       </div>
     </div>
 
