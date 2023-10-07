@@ -3,7 +3,7 @@
     <div class="row justify-content-center p-2 m-2">
       <div
         class="col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark elevation-4">
-        <h1 class="d-flex justify-content-center">ACCOUNT</h1>
+        <h1 class="d-flex justify-content-center">InTouch</h1>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
