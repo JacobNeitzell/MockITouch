@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid position relative">
+  <div class="container-fluid  ">
     <div class="row justify-content-center p-2 m-2">
       <div
-        class="col-lg-12 col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark">
+        class="col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark elevation-4">
         <h1 class="d-flex justify-content-center">ACCOUNT</h1>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -25,7 +25,7 @@
             </label>
           </div>
         </div>
-        <input class="btn btn-dark" type="submit" value="Submit">
+        <input class="btn btn-dark " type="submit" value="Submit">
       </div>
     </div>
 
