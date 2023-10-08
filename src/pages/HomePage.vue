@@ -4,7 +4,9 @@
       <div
         class="col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark elevation-4">
         <h1 class="d-flex justify-content-center">InTouch</h1>
-        <img src="../assets/img/Jakeface.png" class="img-fluid rounded-circle" alt="...">
+        <div class="text-center">
+          <img src="../assets/img/Jakeface.png" class="img-fluid rounded-circle text-end" alt="...">
+        </div>
         <h2 class="d-flex justify-content-center">Sign In</h2>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -64,8 +66,8 @@ export default {
 
   .prof {
     height: 45px;
-    max-width: 35px;
-    width: 100%;
+    max-width: 50%;
+    width: 50%;
     object-fit: fill;
     object-position: center;
   }
