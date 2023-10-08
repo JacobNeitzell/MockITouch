@@ -4,8 +4,7 @@
       <div
         class="col-md-6 d-flex justify-content-center flex-column border-0 rounded position-relative p-1 bg-dark elevation-4">
         <h1 class="d-flex justify-content-center">InTouch</h1>
-        <span><img src="../assets/img/Jakeface.png" class="prof img-thumbnail d-flex align-item-center rounded-circle"
-            alt="..."></span>
+        <img src="../assets/img/Jakeface.png" class="img-fluid rounded-circle" alt="...">
         <h2 class="d-flex justify-content-center">Sign In</h2>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -54,7 +53,7 @@ export default {
   .home-card {
     width: 50vw;
 
-    >img {
+    >image {
       height: 200px;
       max-width: 200px;
       width: 100%;
@@ -64,8 +63,8 @@ export default {
   }
 
   .prof {
-    height: 100;
-    max-width: 150px;
+    height: 45px;
+    max-width: 35px;
     width: 100%;
     object-fit: fill;
     object-position: center;
