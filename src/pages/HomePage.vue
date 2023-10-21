@@ -25,7 +25,7 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="Remember Me" id="flexCheckChecked" checked>
             <label class="form-check-label" for="flexCheckChecked">
-              Remember Me
+              Remember Me.
             </label>
             <label class="selectable float-end">Forgot Password</label>
           </div>
